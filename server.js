@@ -8,4 +8,13 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors());
 
+
+// import api routes
+import categoryRouter from "./routes/category.routes.js";
+
+
+// user routes
+app.use("/api/category", categoryRouter);
+
+
 export default app;
