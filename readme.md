@@ -12,20 +12,7 @@ Bookstore backend built with nodejs, expressJs and mongoDB that aims to provide 
 ## API Testing
 
 If you want to test API without cloning repository you can use the following url
-Hosted Api url: https://user-auth-qvhu.onrender.com
-
-## Hosted API Routes and Payload
-
-1. Register User Api-
-   Route: https://user-auth-qvhu.onrender.com/api/auth/register
-   Payload: firstName, lastName, email, password, username.
-2. Login User Api-
-   Route: https://user-auth-qvhu.onrender.com/api/auth/login
-   Payload: email, password.
-3. Logout User Api-
-   Route: https://user-auth-qvhu.onrender.com/api/auth/logout
-4. Get User Profile Api-
-   Route: https://user-auth-qvhu.onrender.com/api/user/profile
+Hosted base Api url: https://bookstore-zcqs.onrender.com/
 
 ## Installation
 
