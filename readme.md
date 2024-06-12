@@ -24,7 +24,7 @@ To run the project locally, follow these steps:
 4. Provide all env variable values which is presented in .env.sample file.
 5. Start the development server: npm start
 6. Open your web browser and visit http://localhost:8000/api-docs to test the API's with swagger.
-7. For running the test cases you can use the command npm test.
+7. For running the test cases please comment line number 7,8 and 15 in server.js file and you can use command npm test to run all the test cases.
 
 
 ## Contributing
