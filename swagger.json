@@ -65,6 +65,9 @@
                 "title": {
                   "example": "any"
                 },
+                "description": {
+                  "example": "any"
+                },
                 "author": {
                   "example": "any"
                 },
