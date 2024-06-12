@@ -8,10 +8,6 @@ const categorySchema = new Schema(
       unique: true,
       trim: true,
     },
-    description: {
-      type: String,
-      trim: true,
-    },
   },
 
   {

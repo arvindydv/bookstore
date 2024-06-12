@@ -1,5 +1,6 @@
 import { Category } from "../models/category.model.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
+import { ApiResponse } from "../utils/ApiResponse.js";
 
 // create categories
 const createCategory = asyncHandler(async (req, res) => {
@@ -26,7 +27,7 @@ const createCategory = asyncHandler(async (req, res) => {
 });
 
 const getAllCategory = asyncHandler(async (req, res) => {
-  const categories = await Category.findAll();
+  const categories = await Category.find();
   return res
     .status(200)
     .json(new ApiResponse(200, categories, "all categories retrieved"));
